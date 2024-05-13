@@ -1,10 +1,9 @@
 {
-  "name": "@nattui/playground-configure-ts-package",
+  "name": "@nattui/playground-configure-js-package",
   "version": "1.0.0",
-  "description": "",
+  "description": "Learning how to configure a JS package",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "project:sort": "pnpx sort-package-json",
     "project:update": "pnpm update"
   }
