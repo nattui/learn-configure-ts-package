@@ -1,0 +1,11 @@
+{
+  "name": "@nattui/playground-configure-ts-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "project:sort": "pnpx sort-package-json",
+    "project:update": "pnpm update"
+  }
+}
