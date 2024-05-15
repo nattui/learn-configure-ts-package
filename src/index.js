@@ -2,4 +2,11 @@ function isStringEqualsPizza(str) {
   return str.toLowerCase() === "pizza";
 }
 
-module.exports = isStringEqualsPizza
+function isStringEqualsCake(str) {
+  return str.toLowerCase() === "cake";
+}
+
+module.exports = {
+  isStringEqualsPizza,
+  isStringEqualsCake,
+};
